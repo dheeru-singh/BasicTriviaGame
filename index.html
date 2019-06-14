@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <div class='container' id="game"> 
+		<div class='row'>
+			<div class='col-sm-12' >
+				
+				<h1 class="text-center">Totally Trivial Trivia!</h1>
+				
+					<button type="button" class="btn btn-magenta" id="start-btn">Start</button>
+			
+				<div class="quiz-section">
+				<h6 class="text-center">Time Remaining: <span id="count-down">  </span> Seconds</h6>				
+				<div class="question-box">
+					<!-- <h3 class="question">What was the first length CGI movie?</h3>
+					<p class="ans">
+						<span>Option 1</span>
+						<span>Option 2</span>
+						<span>Option 3</span>
+						<span>Option 4</span>
+					</p> -->
+					
+				</div>
+				<button type="button" class="btn btn-magenta" id="done-btn">Done !</button>
+				</div>
+				<div class="result-section">
+					<h3>All Done!</h3>
+					<p>Correct Answer: <span  id="correct-answer"> </span></p>
+					<p>Incorrect Answer: <span id="incorrect-answer"> </span></p>
+					<p>Unanswered: <span id="un-answer"> </span></p>
+				</div>
+			</div>
+        </div>
+        
+	</div>
+
+
+<script src="assets/js/game.js"></script>
+</body>
+</html>
